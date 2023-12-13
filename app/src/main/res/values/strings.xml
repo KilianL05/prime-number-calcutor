@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calculator2</string>
+    <string name="temps_total_d_xecution">Temps total d\'éxecution:</string>
+    <string name="le_plus_grand_nombre_entier_trouv">Le plus grand nombre entier trouvé:</string>
+    <string name="le_plus_grand_nombre_premier_trouv">Le plus grand nombre premier trouvé:</string>
+</resources>

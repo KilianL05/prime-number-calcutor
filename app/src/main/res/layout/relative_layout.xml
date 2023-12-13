@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez un nombre"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputNumberEditText"
+        android:layout_marginTop="16dp"
+        android:text="Calculer" />
+
+    <TextView
+        android:id="@+id/totalTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentNumberTextView"
+        android:layout_marginTop="16dp"
+        android:text="@string/temps_total_d_xecution"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/currentNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/le_plus_grand_nombre_premier_trouv"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/primeNumbersListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentNumberTextView"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>
